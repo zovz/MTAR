@@ -1,0 +1,8 @@
+               precision    recall  f1-score   support
+
+  rampUp_data       0.51      0.68      0.58       114
+rampDown_data       0.85      0.74      0.79       286
+
+     accuracy                           0.72       400
+    macro avg       0.68      0.71      0.69       400
+ weighted avg       0.75      0.72      0.73       400

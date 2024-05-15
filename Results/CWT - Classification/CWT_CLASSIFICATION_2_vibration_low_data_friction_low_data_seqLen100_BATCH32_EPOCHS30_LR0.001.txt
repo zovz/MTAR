@@ -1,0 +1,8 @@
+                    precision    recall  f1-score   support
+
+vibration_low_data       0.45      0.81      0.58       200
+ friction_low_data       0.10      0.02      0.03       200
+
+          accuracy                           0.42       400
+         macro avg       0.28      0.42      0.31       400
+      weighted avg       0.28      0.42      0.31       400
