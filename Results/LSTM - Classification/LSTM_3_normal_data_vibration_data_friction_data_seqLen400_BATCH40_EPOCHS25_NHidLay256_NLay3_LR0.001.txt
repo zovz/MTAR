@@ -1,0 +1,20 @@
+                precision    recall  f1-score   support
+
+   normal_data       0.99      1.00      0.99      3371
+vibration_data       1.00      1.00      1.00      3322
+ friction_data       1.00      0.99      0.99      3307
+
+      accuracy                           1.00     10000
+     macro avg       1.00      1.00      1.00     10000
+  weighted avg       1.00      1.00      1.00     10000
+
+
+Total time: 45.3278 seconds
+Highest time: 0.2520 seconds
+Lowest time: 0.0421 seconds
+Average time: 0.2266 seconds
+Errors: 6
+Correct: 994
+Accuracy: 99.40%
+
+SequenceLength here is 400 -> 0.4 ms, meaning the prediction, even at the Highest in 1000 predictions is lower than the sequence SequenceLength used
